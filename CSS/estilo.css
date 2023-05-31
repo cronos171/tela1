@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+	
+
+body {
+	background-image: url("../imagens/mcmc.jpg");
+	background-position: 30% 30%;
+}
+.titulo-entrada {
+  font-size: 26px;
+  color: #333333;
+  font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+}
+.titulo-saida {
+	font-size: 13px;
+
+}
+
+div#corpo-form{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 150px auto 0px auto;
+}
+
+form {
+	width: 400px;
+	background: #fff;
+	padding: 35px;
+	border-radius: 7px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
+
+form .row {
+	position: relative;
+	margin: 50px;
+}
+
+form input {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	padding-right: 110px;
+	outline: none;
+}
+
+form input[type="submit"] {
+	background: #16b;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
